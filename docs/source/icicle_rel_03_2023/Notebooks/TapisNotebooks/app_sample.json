@@ -1,0 +1,12 @@
+{
+  "id":"hello-icicle-testing-app",
+  "version":"0.1",
+  "description":"Testing application for job submission.",
+  "runtime":"DOCKER",
+  "containerImage":"docker.io/hello-world:latest",
+  "jobType":"FORK",
+  "jobAttributes": {
+    "description": "default job description",
+    "execSystemId": "hello_icicle_dev"
+  }
+}
